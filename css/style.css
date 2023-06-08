@@ -1,0 +1,124 @@
+@font-face {
+  font-family: "Monrope-SemiBold";
+  src: url(../fonts/Manrope-SemiBold.ttf);
+}
+
+body {
+  background-image: url(../bcgg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0;
+  padding: 0 20px;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+section {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+#login-form h2 {
+  font-family: "Monrope-SemiBold", sans-serif;
+  font-size: 28px;
+  text-align: center;
+  padding: 25px 0 10px;
+}
+
+.login-page {
+  width: 100%;
+  max-width: 450px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 15px;
+  backdrop-filter: invert(20%);
+}
+
+.input-box input {
+  width: 100%;
+  padding: 10px 30px;
+  margin-bottom: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+input::placeholder {
+  font-family: "Monrope-SemiBold", sans-serif;
+}
+
+.remember__forgot {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+  font-family: "Monrope-SemiBold", sans-serif;
+}
+
+.remember__forgot a {
+  font-family: "Monrope-SemiBold", sans-serif;
+  text-decoration: none;
+  color: black;
+}
+
+button {
+  width: 100%;
+  padding: 10px 0;
+  border-radius: 10px;
+  border: 1px solid #eee;
+  background-color: #ddd;
+  margin: 15px 0 25px;
+  cursor: pointer;
+}
+
+button a {
+  color: black;
+  font-family: "Monrope-SemiBold", sans-serif;
+  text-decoration: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+button:hover {
+  transition: all 0.5s ease-in-out;
+  background-color: rgb(218, 79, 243);
+}
+
+button:hover > a {
+  color: #fff;
+}
+
+.register-now {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+  margin: 15px 0 50px;
+}
+
+.register-now label {
+  font-family: "Monrope-SemiBold", sans-serif;
+  color: black;
+  font-size: 16px;
+}
+
+.register-now a {
+  font-family: "Monrope-SemiBold", sans-serif;
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
